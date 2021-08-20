@@ -2,6 +2,7 @@ html,
 body,
 #root {
   height: 100%;
+  isolation: isolate;
 }
 
 body {
@@ -29,4 +30,14 @@ body {
   margin: -1px;
   padding: 0;
   border: 0;
+}
+
+#gray-bar {
+  background-color: hsl(195deg, 20%, 86%);
+  height: 40vh;
+  position: fixed;
+  bottom: 0;
+  top: 80;
+  left: 0;
+  right: 0;
 }

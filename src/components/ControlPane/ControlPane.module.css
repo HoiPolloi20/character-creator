@@ -5,6 +5,7 @@
   background-color: white;
   border-radius: 8px;
   width: 512px;
+  overflow-x: scroll;
   /*
     HACK: Margin on an outer bound like this is
     a little gross, but we haven't seen the tools
